@@ -23,48 +23,49 @@ A plain text to HTML converter, [originally by John Gruber](http://daringfirebal
 ### parse($text)
 Parses HTML and returns Markdown.
 <table class="method">
-					<tbody>
-					<tr>
-						<th>Static</th>
-						<td>Yes</td>
-					</tr>
-					<tr>
-						<th>Parameters</th>
-						<td>
-							<table class="parameters">
-								<tr>
-									<th>Param</th>
-									<th>Default</th>
-									<th>Description</th>
-								</tr>
-								<tr>
-									<th><kbd>$text</kbd></th>
-									<td><i>required</i></td>
-									<td>Markdown text to parse.</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-					<tr>
-						<th>Returns</th>
-						<td>string</td>
-					</tr>
-					<tr>
-						<th>Example</th>
-						<td>
-							<pre class="php"><code>$string = '&lt;h1&gt;About Markdown&lt;/h1&gt;
-						&lt;p&gt;Markdown is a text-to-HTML conversion tool for web writers.
-						Markdown allows you to write using an easy-to-read, easy-to-write
-						plain text format, then convert it to structurally valid HTML.&lt;/p&gt;
-						&lt;ul&gt;
-						&lt;li&gt;It features bullet points&lt;/li&gt;
-						&lt;li&gt;As well as other handy features&lt;/li&gt;
-						&lt;/ul&gt;';
+<tbody>
+<tr>
+	<th>Static</th>
+	<td>Yes</td>
+</tr>
+<tr>
+	<th>Parameters</th>
+	<td>
+		<table class="parameters">
+			<tr>
+				<th>Param</th>
+				<th>Default</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<th><kbd>$text</kbd></th>
+				<td><i>required</i></td>
+				<td>Markdown text to parse.</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<th>Returns</th>
+	<td>string</td>
+</tr>
+</tbody>
+</table>
+
+### Example
+<pre class="php"><code>$string = '&lt;h1&gt;About Markdown&lt;/h1&gt;
+&lt;p&gt;Markdown is a text-to-HTML conversion tool for web writers.
+Markdown allows you to write using an easy-to-read, easy-to-write
+plain text format, then convert it to structurally valid HTML.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It features bullet points&lt;/li&gt;
+&lt;li&gt;As well as other handy features&lt;/li&gt;
+&lt;/ul&gt;';
 
 echo Markdown::parse($string);</code></pre>
 <p>Returns</p>
 <pre><code>
-	# About Markdown
+# About Markdown
 
 Markdown is a text-to-HTML conversion tool for web writers.
 Markdown allows you to write using an easy-to-read, easy-to-write
@@ -73,11 +74,7 @@ plain text format, then convert it to structurally valid HTML.
 * It features bullet points
 * As well as other handy features
 </code></pre>
-						</td>
-					</tr>
-					</tbody>
-				</table>
-			
+
 	
 			
 -------------------------------------------------
