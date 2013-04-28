@@ -1,4 +1,4 @@
-Fuel Markdownify
+Markdownify for FuelPHP
 ================
 
 ## Introduction
@@ -74,10 +74,8 @@ plain text format, then convert it to structurally valid HTML.
 * It features bullet points
 * As well as other handy features
 </code></pre>
-
-	
 			
--------------------------------------------------
+---
 
 Markdownify converts HTML Markup to [Markdown][1] (by [John Gruber][2].
 It also supports [Markdown Extra][3] by [Michel Fortin][4] via Markdownify_Extra.
@@ -99,29 +97,3 @@ Also notably is the fact that I now try to prevent regressions by utilizing test
  [5]: http://www.aaronsw.com/
  [6]: http://www.aaronsw.com/2002/html2text/
  [7]: http://article.gmane.org/gmane.text.markdown.general/2540
-
-
--------------------------------------------------
-
- @version 2.0.0 alpha
- @author Milian Wolff (<mail@milianw.de>, <http://milianw.de>)
- @license LGPL, see LICENSE_LGPL.txt and the summary below
- @copyright (C) 2007  Milian Wolff
-
--------------------------------------------------
-
-This library is free software; you can redistribute it and/or
-modify it under the terms of the GNU Lesser General Public
-License as published by the Free Software Foundation; either
-version 2.1 of the License, or (at your option) any later version.
-
-This library is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public
-License along with this library; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
-
--------------------------------------------------
